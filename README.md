@@ -76,11 +76,11 @@ We build robust baselines for **Non-Intrusive Load Monitoring (NILM)** on the UK
       <sub>MLP probability trajectory (7–14d context).</sub>
     </td>
     <td align="center">
-      <img src="plots/mlp_kettle_14d.png" width="250" alt="MLP 14d"/><br/>
+      <img src="plots/mlp_kettle_probs.png" width="250" alt="MLP 14d"/><br/>
       <sub>14-day context boosts recall and smooths predictions.</sub>
     </td>
     <td align="center">
-      <img src="plots/mlp_kettle_14d_tuned.png" width="250" alt="MLP tuned"/><br/>
+      <img src="plots/mlp_kettle_probs.png" width="250" alt="MLP tuned"/><br/>
       <sub>Tuned threshold for recall ≥ 0.85.</sub>
     </td>
   </tr>
