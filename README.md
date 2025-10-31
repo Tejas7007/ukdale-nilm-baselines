@@ -57,15 +57,27 @@ Each model was trained on **Building 1**, aggregated at **1-minute resolution**,
 </p>
 
 ### 🔹 Neural Networks (MLP)
-<p align="center">
-  <img src="plots/mlp_kettle_probs.png" width="240" />
-  <img src="plots/mlp_kettle_14d_prob.png" width="240" />
-  <img src="plots/mlp_kettle_14d_tuned.png" width="240" />
-</p>
+<table>
+  <tr>
+    <td align="center">
+      <img src="plots/mlp_kettle_probs.png" width="320" />
+      <br/><sub>MLP probability trajectory (7–14d context).</sub>
+    </td>
+    <td align="center">
+      <img src="plots/mlp_kettle_14d_prob.png" width="320" />
+      <br/><sub>14-day context boosts recall and smooths predictions.</sub>
+    </td>
+    <td align="center">
+      <img src="plots/mlp_kettle_14d_decisions.png" width="320" />
+      <br/><sub>Tuned decision overlay (thresholded ON/OFF).</sub>
+    </td>
+  </tr>
+</table>
 
 ### 🔹 Multi-Label Overview
 <p align="center">
-  <img src="plots/multilabel_confusion.png" width="750" alt="Multilabel confusion matrix"/>
+  <img src="plots/multilabel_confusion.png" width="780" />
+  <br/><sub>Aggregated confusion across Kettle, Microwave, Fridge-Freezer, Toaster.</sub>
 </p>
 
 ---
