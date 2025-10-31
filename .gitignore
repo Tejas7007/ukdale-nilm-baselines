@@ -1,0 +1,25 @@
+# OS / editor
+.DS_Store
+.vscode/
+
+# Python
+__pycache__/
+*.pyc
+
+# Conda / venv
+.env/
+.venv/
+*.egg-info/
+.ipynb_checkpoints/
+
+# Data & heavy artifacts
+*.h5
+*MULTI*csv
+*b1_*csv
+*predictions*.csv
+models_multilabel/
+*.joblib
+*.json
+
+# Plots & images (optional, comment this line to keep them)
+*.png
