@@ -23,3 +23,6 @@ models_multilabel/
 
 # Plots & images (optional, comment this line to keep them)
 *.png
+
+# allow plots images
+!plots/*.png
