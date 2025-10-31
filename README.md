@@ -165,10 +165,11 @@ Shows the correlation between aggregated mains consumption and individual applia
 If you use this repository, please cite:
 
 @misc{dahiya2025_ukdale_nilm_baselines,
-  author = {Tejas Dahiya},
-  title  = {UK-DALE NILM Baselines: Linear, Logistic, and MLP Models for Energy Disaggregation},
-  year   = {2025},
-  note   = {Building 1, 1-min aggregation, 14-day context}
+  author       = {Tejas Dahiya},
+  title        = {UK-DALE NILM Baselines: Linear, Logistic, and MLP Models for Energy Disaggregation},
+  year         = {2025},
+  note         = {Building 1, 1-minute aggregation, 14-day temporal context},
+  howpublished = {\url{https://github.com/Tejas7007/ukdale-nilm-baselines}}
 }
 **Reproduce results:**
 ```bash
