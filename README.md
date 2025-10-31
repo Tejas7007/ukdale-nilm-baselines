@@ -160,6 +160,16 @@ Shows the correlation between aggregated mains consumption and individual applia
 - Python 3.11 (Conda)  
 - Packages: `pandas`, `numpy`, `torch`, `sklearn`, `matplotlib`, `seaborn`  
 
+📚 Citation
+
+If you use this repository, please cite:
+
+@misc{dahiya2025_ukdale_nilm_baselines,
+  author = {Tejas Dahiya},
+  title  = {UK-DALE NILM Baselines: Linear, Logistic, and MLP Models for Energy Disaggregation},
+  year   = {2025},
+  note   = {Building 1, 1-min aggregation, 14-day context}
+}
 **Reproduce results:**
 ```bash
 conda create -n ukdale311 python=3.11
@@ -168,11 +178,4 @@ pip install -r requirements.txt
 python build_multi_appliance_csv.py
 python evaluate_multilabel_predictions.py
 python plot_multilabel_confusion.py
-
-@misc{dahiya2025_ukdale_nilm_baselines,
-  author = {Tejas Dahiya},
-  title  = {UK-DALE NILM Baselines: Linear, Logistic, and MLP Models for Energy Disaggregation},
-  year   = {2025},
-  note   = {Building 1, 1-min aggregation, 14-day context}
-}
 
