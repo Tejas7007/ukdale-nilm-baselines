@@ -26,3 +26,6 @@ models_multilabel/
 
 # allow plots images
 !plots/*.png
+
+# allow committed result images
+!plots/*.png
